@@ -10,13 +10,13 @@ const Login = () => {
                 <form action="">
                     <div className="input-group">
                         <label htmlFor="email">Email</label>
-                        <input type="email" name="email" />
+                        <input type="email" name="email" required />
                     </div>
                     <div className="input-group">
                         <label htmlFor="password">Password</label>
-                        <input type="password" name="password" />
+                        <input type="password" name="password" required />
                     </div>
-                    <input className="from-submit" type="submit" value="Login" />
+                    <input className="form-submit" type="submit" value="Login" />
                 </form>
                 <p>New To Ema-John? <Link className="form-link" to="/signup">Create an account</Link></p>
             </div>
